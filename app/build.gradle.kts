@@ -6,8 +6,6 @@ plugins {
     alias(libs.plugins.google.devtools.ksp)
     alias(libs.plugins.roborazzi)
     alias(libs.plugins.secrets)
-    // Comment out the google services plugin to bypass validation:
-    // alias(libs.plugins.google.services)
 }
 
 android {
